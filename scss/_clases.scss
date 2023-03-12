@@ -1,0 +1,46 @@
+.anclas {
+    font-size: 1.3rem;
+    color: $color_1;
+    font-weight: 450;
+
+    &:hover {
+        text-decoration: underline;
+        color: $color_2;
+    }
+}
+
+.colorfondo {
+    background-color: $background-color_2;
+}
+
+.imgcarousel {
+    height: 350px;
+    object-fit: cover;
+}
+
+.carousel {
+    padding-top: 1px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.flexcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    text-align: start;
+    align-items: center;
+}
+
+.breadcrumb {
+    font-family: $font-family_1;
+    background-color: $background-color_2;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    
+}
+
+
+

@@ -1,0 +1,23 @@
+body {
+    font-family: $font-family_1;
+    background-color: $background-color_1;
+}
+
+main {
+    text-align: center;
+
+    p {
+        margin-top: 20px;
+    }
+}
+@mixin footer {
+    background-color: $background-color_2;
+    border: 1px solid black;
+}
+
+footer {@include footer;
+
+    
+}
+
+

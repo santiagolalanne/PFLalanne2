@@ -5,17 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green To Go</title>
+    <meta name="description"
+        content="Somos la tienda #1 de comida rapida saludable de Montevideo. Contactanos al 2915 2478">
+    <title>Contacto -- Green To Go</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../css/img/gtg.ico">
+    <div class="breadcrumb">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+
+                <li class="breadcrumb-item active" aria-current="contacto.html">Contacto</li>
+                <li class="breadcrumb-item"><a href="/index.html">Inicio</a></li>
+                <li class="breadcrumb-item"><a href="menu.html">Carta</a></li>
+                <li class="breadcrumb-item"><a href="eventos.html">Eventos</a></li>
+                <li class="breadcrumb-item"><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+            </ol>
+        </nav>
+    </div>
+
+    <!--LIBRERIA ANIMATE-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../scss/estilo.css">
 </head>
 
 <body class="container-fluid">
     <nav class="navbar navbar-expand-lg colorfondo">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"></a>
-            <img src="/css/img/gtg.webp" alt="logo">
+            <img class="animate__animated animate__heartBeat" src="/css/img/gtg.webp" alt="logo">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -45,6 +64,7 @@
 
     </header>
     <br><br><br>
+    <!--FORMULARIO-->
     <main>
         <div class="row">
             <div class="col-xl-6 col-md-12">
@@ -65,46 +85,54 @@
                 </form>
             </div>
 
-            <br><br><br>
+            <br><br><br><br>
+
             <div class="col-xl-6 col-md-12">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26176.397712700084!2d-56.238895820898435!3d-34.90520189999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f7f80a9119887%3A0x11465ffe15fca6e8!2sGreen%20To%20Go!5e0!3m2!1ses!2suy!4v1675560494766!5m2!1ses!2suy"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.049714869205!2d-56.206065584615146!3d-34.90520188038249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f7f80a9119887%3A0x11465ffe15fca6e8!2sGreen%20To%20Go!5e0!3m2!1ses!2suy!4v1678577040958!5m2!1ses!2suy"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
 
-
-
-
     </main>
-    <br><br><br>
+    <br>
     <footer>
-        <h2><br> VIAS DE CONTACTO <br>
-            hola@greentogo.uy <br>
-            2915 2478
+        <section class="flexcontainer">
+            <div class="flexitem">
+                <br>
+                hola@greentogo.uy <br>
+                2915 2478
+            </div>
 
-            <br>
 
-            DIRECCIONES Y HORARIOS <br><br>
-            Ciudad Vieja:
-            25 de mayo 599 esq. Juan Carlos Gómez <br>
-            Lunes a viernes de 11 a 16:00hs.
-            <br><br>
-            Punta Carretas:
-            Roque Graseras 746 Bis <br>
-            Lunes a sábados de 11 a 15hs. y de 19:30 a 23hs.
+            <div class="flexitem"> CIUDAD VIEJA <br><br>
 
-        </h2>
+                25 de mayo 599 esq. Juan Carlos Gómez <br>
+                Lunes a viernes de 11 a 16:00hs. <br>
 
-        <h3>Green To Go® es una marca registrada. ©2023 Todos los derechos reservados.</h3>
+            </div>
+
+            <div class="flexitem"> PUNTA CARRETAS <br><br>
+
+                Punta Carretas:
+                Roque Graseras 746 Bis <br>
+                Lunes a sábados de 11 a 15hs. y de 19:30 a 23hs.</div>
+
+        </section>
+
+        <h1>Green To Go® es una marca registrada. ©2023 Todos los derechos reservados.</h1>
+
+        <!--FALTA ENLAZAR LOS BOTONES CON LAS RRSS-->
         <ul>
             <li>Facebook</li>
             <li>Twitter</li>
             <li>Instagram</li>
         </ul>
-        <br><br><br>
+
     </footer>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
