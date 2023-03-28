@@ -1,8 +1,12 @@
 @import "../css/estilo.css";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
 header {
-  background-color: #74c69d;
+  background-color: #168C35;
   border: none;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .anclas {
@@ -16,7 +20,7 @@ header {
 }
 
 .colorfondo {
-  background-color: #74c69d;
+  background-color: #168C35;
 }
 
 .imgcarousel {
@@ -39,12 +43,53 @@ header {
   align-items: center;
 }
 
+.ancho {
+  width: 100%;
+}
+
+.bodycontacto {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  height: 100%;
+  padding-bottom: 220px;
+}
+
 .breadcrumb {
   font-family: "Roboto", sans-serif;
-  background-color: #74c69d;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: bold;
+  background-color: #168C35;
+  font-size: 11px;
+  text-transform: lowercase;
+  font-weight: lighter;
+}
+.breadcrumb :visited {
+  color: whitesmoke;
+}
+
+.imgslogan {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+#map-container {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.imagentelymail {
+  width: 10%;
+  height: auto;
+  margin-right: 10px;
+}
+
+.row {
+  margin-bottom: 20px;
 }
 
 h1 {
@@ -68,6 +113,8 @@ h3 {
 body {
   font-family: "Roboto", sans-serif;
   background-color: white;
+  padding-bottom: 85px;
+  width: 100%;
 }
 
 main {
@@ -78,13 +125,19 @@ main p {
 }
 
 footer {
-  background-color: #74c69d;
-  border: 1px solid black;
+  background-color: #168C35;
+  border: none;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 ul li {
   list-style: none;

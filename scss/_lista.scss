@@ -1,6 +1,6 @@
 ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
     li {
         list-style: none;
@@ -13,6 +13,9 @@ ul {
             font-weight: bold;
             margin: 30px;
             margin-bottom: 60px;
+            
+
+
         }
     }
 }

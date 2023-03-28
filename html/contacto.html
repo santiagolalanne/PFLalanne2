@@ -9,19 +9,6 @@
         content="Somos la tienda #1 de comida rapida saludable de Montevideo. Contactanos al 2915 2478">
     <title>Contacto -- Green To Go</title>
     <link rel="shortcut icon" type="image/x-icon" href="../css/img/gtg.ico">
-    <div class="breadcrumb">
-        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-
-                <li class="breadcrumb-item active" aria-current="contacto.html">Contacto</li>
-                <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
-                <li class="breadcrumb-item"><a href="menu.html">Carta</a></li>
-                <li class="breadcrumb-item"><a href="eventos.html">Eventos</a></li>
-                <li class="breadcrumb-item"><a href="sobrenosotros.html">Sobre Nosotros</a></li>
-            </ol>
-        </nav>
-    </div>
-
     <!--LIBRERIA ANIMATE-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!--BOOTSTRAP-->
@@ -30,42 +17,59 @@
     <link rel="stylesheet" href="../scss/estilo.css">
 </head>
 
-<body class="container-fluid">
-    <nav class="navbar navbar-expand-lg colorfondo">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"></a>
-            <img class="animate__animated animate__heartBeat" src="../css/img/gtg.webp" alt="logo">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link anclas" href="../index.html">INICIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link anclas" href="menu.html">CARTA</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link anclas" href="eventos.html">EVENTOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link anclas" href="sobrenosotros.html">SOBRE NOSOTROS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link anclas" aria-current="page" href="contacto.html">CONTACTO</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<body class="bodycontacto" class="container-fluid">
     <header>
+        <div class="breadcrumb">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
 
+                    <li class="breadcrumb-item active" aria-current="contacto.html">Contacto</li>
+                    <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+                    <li class="breadcrumb-item"><a href="menu.html">Carta</a></li>
+                    <li class="breadcrumb-item"><a href="eventos.html">Eventos</a></li>
+                    <li class="breadcrumb-item"><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+                </ol>
+            </nav>
+        </div>
+
+        <nav class="navbar navbar-expand-lg colorfondo">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <img class="animate__animated animate__heartBeat" src="../css/img/gtg.webp" alt="logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link anclas" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link anclas" href="menu.html">CARTA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link anclas" href="eventos.html">EVENTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link anclas" href="sobrenosotros.html">SOBRE NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link anclas" aria-current="page" href="contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="imgslogan">
+            <img class="animate__animated animate__shakeY" src="../css/img/sloganweb.webp" alt="slogan">
+        </div>
     </header>
     <br><br><br>
     <!--FORMULARIO-->
     <main>
+
         <div class="row">
             <div class="col-xl-6 col-md-12">
                 <form>
@@ -87,7 +91,7 @@
 
             <br><br><br><br>
 
-            <div class="col-xl-6 col-md-12">
+            <div class="col-xl-6 col-md-12" id="mapcontainer">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.049714869205!2d-56.206065584615146!3d-34.90520188038249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f7f80a9119887%3A0x11465ffe15fca6e8!2sGreen%20To%20Go!5e0!3m2!1ses!2suy!4v1678577040958!5m2!1ses!2suy"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -101,15 +105,16 @@
         <section class="flexcontainer">
             <div class="flexitem">
                 <br>
-                hola@greentogo.uy <br>
-                2915 2478
+
+                <img src="../css/img/mail.png" class="imagentelymail" alt="mail"> hola@greentogo.uy <br> <br>
+                <img src="../css/img/tel.png" class="imagentelymail" alt="tel"> 2915 2478
             </div>
 
 
             <div class="flexitem"> CIUDAD VIEJA <br><br>
 
                 25 de mayo 599 esq. Juan Carlos Gómez <br>
-                Lunes a viernes de 11 a 16:00hs. <br>
+                Lunes a viernes de 11hs a 16hs <br>
 
             </div>
 
@@ -117,17 +122,19 @@
 
                 Punta Carretas:
                 Roque Graseras 746 Bis <br>
-                Lunes a sábados de 11 a 15hs. y de 19:30 a 23hs.</div>
+                Lunes a sábados de 11hs a 15hs y de 19:30hs a 23hs</div>
 
         </section>
 
         <h1>Green To Go® es una marca registrada. ©2023 Todos los derechos reservados.</h1>
 
-        <!--FALTA ENLAZAR LOS BOTONES CON LAS RRSS-->
+
         <ul>
-            <li>Facebook</li>
-            <li>Twitter</li>
-            <li>Instagram</li>
+            <li><a href="https://www.facebook.com/GreenToGoUruguay/" target="_blank"> <img src="../css/img/logofb.webp"
+                        alt="logo instagram"> </a></li>
+
+            <li><a href="https://www.instagram.com/greentogouruguay/" target="_blank"> <img src="../css/img/logoig.webp"
+                        alt="logo instagram"> </a>
         </ul>
 
     </footer>
