@@ -78,6 +78,7 @@
 
 
 #map-container {
+
     max-width: 100%;
     overflow: hidden;
 }
@@ -88,4 +89,14 @@
     margin-right: 10px;
 }
 
-.row{margin-bottom: 20px;}
+.row {
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.mapa {
+    padding-top: 20px;
+  }
